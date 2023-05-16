@@ -1,0 +1,26 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#draggable_div{
+   
+    width: 20vw;
+    position: absolute;
+    top:50%;
+    left:50%;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+    background-color: rgb(111, 217, 253);
+    transform: translate(-50%, -50%);
+}
+
+#draggable_div>header{
+    text-align: center;
+    border-bottom: 1px solid gray ;
+}
+
+#draggable_div_content{
+    padding-top: 2vh;
+    text-align: center;
+    font-size: small;
+}
